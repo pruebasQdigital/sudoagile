@@ -15,7 +15,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get ('/pruebas/(nombre?)', function ($nombre=null){
+Route::get ('/pruebas/(nombre?)', function ($nombre = null){
 
     $texto = '<h2>Escribir un nombre desde la dirección</h2>';
 
