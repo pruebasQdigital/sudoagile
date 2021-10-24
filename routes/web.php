@@ -15,8 +15,13 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get ('/pruebas', function (){
+Route::get ('/pruebas/(nombre)', function ($nombre){
 
-    return '<h2>Texto desde una ruta</h2>';
+    $texto = '<h2>Texto desde una ruta</h2>';
+
+    $texto .= 'Nombre: '.$nombre;
+
+    return  $texto;
+
 });
 
