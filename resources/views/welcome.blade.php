@@ -82,7 +82,7 @@
             <div class="content">
                 <div class="title m-b-md">
                     
-                <img src="images/Logo Sudo Agile.png">
+                <img src="https://sudoagile.com/images/Logo%20Sudo%20Agile.png">
 
                 <div class="links">
                     <a href="https://laravel.com/docs">Docs</a>
